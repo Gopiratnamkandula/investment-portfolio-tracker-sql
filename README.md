@@ -27,9 +27,9 @@ This is a beginner-friendly SQL project that simulates a basic investment portfo
 
 | Query | Output |
 |-------|--------|
-| Total quantity by sector | ![Query 1](images/queryoutput1.png) |
-| Top users by holdings | ![Query 2](images/queryoutput2.png) |
-| Stock performance | ![Query 3](images/queryoutput3.png) |
+| Total quantity by sector | ![Query 1](images/queryoutput1.jpg) |
+| Top users by holdings | ![Query 2](images/queryoutput2.jpg) |
+| Stock performance | ![Query 3](images/queryoutput3.jpg) |
 
 ---
 
