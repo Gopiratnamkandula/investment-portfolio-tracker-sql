@@ -11,9 +11,9 @@ investment_portfolio_tracker/
 ├── investment_portfolio_tracker.sql.sqbpro # SQLite project file
 ├── README.md # Project description and usage
 └── images/
-├── queryoutput1.png
-├── queryoutput2.png
-└── queryoutput3.png
+├── queryoutput1.jpg
+├── queryoutput2.jpg
+└── queryoutput3.jpg
 
 
 ---
@@ -39,13 +39,13 @@ investment_portfolio_tracker/
 ## 🧪 Example Insights (via Queries)
 
 ### 1️⃣ Total quantity of stocks held per sector  
-![Query Output 1](images/queryoutput1.png)
+![Query Output 1](images/queryoutput1.jpg)
 
 ### 2️⃣ Portfolio value per user  
-![Query Output 2](images/queryoutput2.png)
+![Query Output 2](images/queryoutput2.jpg)
 
 ### 3️⃣ Current stock prices  
-![Query Output 3](images/queryoutput3.png)
+![Query Output 3](images/queryoutput3.jpg)
 
 ---
 
