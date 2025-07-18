@@ -40,6 +40,12 @@ This is a beginner-friendly SQL project that simulates a basic investment portfo
 
 ---
 
+## 🚀 How to Use
+
+1. Download or clone the repo
+2. Open `investment_portfolio_tracker.db` in [DB Browser for SQLite](https://sqlitebrowser.org/)
+3. Run sample queries or create your own
+
 ## 🧑‍💻 Author
 
 **K.V.V. Gopi Ratnam**  
