@@ -1,78 +1,46 @@
 # 💼 Investment Portfolio Tracker (SQL Project)
 
-This project is a basic Investment Portfolio Tracker built using **SQLite**. It helps simulate how investors track their stock holdings, prices, and transactions over time. The purpose of this project is to demonstrate fundamental SQL skills such as creating schema, inserting data, and querying data to extract insights.
+This is a beginner-friendly SQL project that simulates a basic investment portfolio system. It helps demonstrate data modeling, query writing, and business logic with a relational database.
 
 ---
 
-## 📁 Project Structure
+## 📁 Database Tables
 
-investment_portfolio_tracker/
-├── investment_portfolio_tracker.sql # Main SQL file (tables + insert + queries)
-├── investment_portfolio_tracker.sql.sqbpro # SQLite project file
-├── README.md # Project description and usage
-└── images/
-├── queryoutput1.jpg
-├── queryoutput2.jpg
-└── queryoutput3.jpg
-
+- **Users**: Stores user information.
+- **Stocks**: Contains stock symbols, names, and sectors.
+- **Holdings**: Tracks how many shares a user holds.
+- **Prices**: Daily stock prices.
+- **Transactions** *(Optional)*: Buy/sell records for users.
 
 ---
 
-## 📌 Features Implemented
+## 🧪 SQL Concepts Practiced
 
-- Created normalized tables for:
-  - Users
-  - Stocks
-  - Holdings
-  - Prices
-  - Transactions
-- Inserted sample data into each table
-- Wrote SQL queries using:
-  - `JOIN`s
-  - `GROUP BY`
-  - `ORDER BY`
-  - Aggregate functions like `SUM()` and `AVG()`
-  - Subqueries for insights
+- Table creation with primary/foreign keys
+- INSERT, SELECT, and JOINs
+- Aggregations (`SUM`, `AVG`)
+- Filtering using `WHERE`, `GROUP BY`, and subqueries
 
 ---
 
-## 🧪 Example Insights (via Queries)
+## 📷 Query Output Screenshots
 
-### 1️⃣ Total quantity of stocks held per sector  
-![Query Output 1](images/queryoutput1.jpg)
-
-### 2️⃣ Portfolio value per user  
-![Query Output 2](images/queryoutput2.jpg)
-
-### 3️⃣ Current stock prices  
-![Query Output 3](images/queryoutput3.jpg)
+| Query | Output |
+|-------|--------|
+| Total quantity by sector | ![Query 1](images/queryoutput1.png) |
+| Top users by holdings | ![Query 2](images/queryoutput2.png) |
+| Stock performance | ![Query 3](images/queryoutput3.png) |
 
 ---
 
-## 🛠️ How to Run the Project
+## 📦 Tools Used
 
-1. Install **[DB Browser for SQLite](https://sqlitebrowser.org/dl/)**
-2. Open the app and go to `File → Open Database`
-3. Select the `investment_portfolio_tracker.sql` file
-4. Use the **"Execute SQL"** tab to run the schema and insert scripts
-5. Run the SELECT queries at the bottom of the SQL file to test output
+- [DB Browser for SQLite](https://sqlitebrowser.org/)  
+- SQL (SQLite)
 
 ---
 
-## 🎯 Skills Demonstrated
-
-- Database schema design
-- SQL querying and analysis
-- Data normalization
-- Use of subqueries and aggregates
-- Analytical thinking applied to data
-
----
-
-## 👩‍💻 Author
+## 🧑‍💻 Author
 
 **K.V.V. Gopi Ratnam**  
-[GitHub Profile](https://github.com/Gopiratnamkandula)  
-📧 Email: kandulagopiratnam686@gmail.com  
-
----
+[GitHub](https://github.com/Gopiratnamkandula)
